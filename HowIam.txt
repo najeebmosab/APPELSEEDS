@@ -1,0 +1,14 @@
+my name mosab abo najeeb
+age 23
+my hobbies:fix Problem in coding and developping 
+
+Experience with Computers and Programming:
+  **I Learned Programming tow years  in ort college and During my education, not only college education, I learned some courses about full stack, such as 
+1-php with framework laravel
+2-ts with frame work angular
+3-mysql 
+4- html,css,js,ajax,json,api,jquery
+
+now i learn java web services with my self to improve my self 
+
+whay i join to the bootcamp:so i need more information about full satck and about working in developing and softwaring company 
