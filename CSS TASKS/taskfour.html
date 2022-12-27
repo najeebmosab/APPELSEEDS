@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    /* start style of navbar */
+    .navbar {
+        background-color: burlywood;
+        overflow: auto;
+    }
+
+    ul {
+        list-style: none;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        padding: 10px 20px;
+        display: inline-block;
+        border-right: solid 1px rgb(255, 212, 155);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+    }
+
+    .lastChild {
+        float: right;
+        padding-right: 20px;
+        border: none;
+    }
+
+    .navbar ul li:hover {
+        background-color: rgb(254, 211, 156);
+    }
+
+    .navbar ul li:hover a {
+        font-weight: 900;
+
+    }
+
+    /* end style of navbar */
+
+    /* start style of sidebar */
+    .sideBar {
+        width: 250px;
+        max-height: 100vh;
+        background-color: green;
+        float: left;
+
+    }
+
+    .sideBar ul {
+        padding: 10px 0px;
+        text-align: start;
+    }
+
+    .sideBar ul li {
+        line-height: 1.5em;
+        border-bottom: 1px solid rgb(0, 147, 0);
+        padding: 0px 10px;
+    }
+
+    .sideBar ul li:hover {
+        background-color: rgb(3, 175, 3);
+    }
+
+    .sideBar ul li:last-child {
+        border-bottom: none;
+    }
+
+    /* end style of sidebar */
+
+    /* start style for footer */
+    .footer {
+        background-color: blue;
+        margin-top: 58px;
+        overflow: auto;
+    }
+
+    .footer div {
+        padding: 0px 40px;
+        display: inline-block;
+        float: left;
+    }
+
+    .footer h5 {
+        color: white;
+        display: inline-block;
+        padding: 10px 0px;
+
+    }
+
+    .f{
+        float: right !important;
+    }
+
+
+    .footer div ul li{
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    .footer div ul li:hover{
+        background-color: rgb(84, 84, 255);
+    }
+    /* end style for footer */
+</style>
+
+<body>
+    <!-- its a header navbar -->
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> Conict</a></li>
+            <li><a href="#"> About</a></li>
+            <li class="lastChild"><a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a></li>
+        </ul>
+    </nav>
+
+    <section class="sideBar">
+        <ul>
+            <li><a href=""> Dashebord</a></li>
+            <li><a href=""> Main</a></li>
+            <li><a href=""> Massege</a></li>
+        </ul>
+    </section>
+
+    <section class="main">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor animi amet dignissimos accusamus laboriosam
+            doloribus nostrum distinctio neque nobis aliquam molestias labore, voluptas, dolorum minima corrupti autem
+            fuga accusantium ut.
+        </p>
+
+    </section>
+
+    <section class="footer">
+        <div>
+            <h5>Conict Us</h5>
+        </div>
+        <div class="f">
+            <ul>
+                <li><a href="https://github.com/najeebmosab"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mosab-najeeb/"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
