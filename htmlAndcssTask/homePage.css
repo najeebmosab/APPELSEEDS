@@ -1,0 +1,171 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#navBar {
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+#navBar section {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#navBar section a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+
+#navBar section a:hover {
+    background-color: rgb(47, 44, 44);
+    color: gold !important;
+
+}
+
+#navBar section:last-child {
+    float: right;
+}
+
+/* End style navbar */
+
+#imgBackground {
+    background-image: url(./showcase.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative !important;
+
+}
+
+/* #imgBackground */
+#shad {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#description {
+    width: 50%;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 180px;
+    right: 25%;
+    text-align: center;
+    line-height: 1.6em;
+    z-index: 2;
+    position: absolute !important;
+
+}
+
+#description h1 {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+#description button {
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+    background-color: #000;
+}
+
+#description button:hover {
+    color: #fff;
+    background-color: transparent;
+    border: #fff solid;
+
+}
+
+#woll {
+    width: 50%;
+    max-height: 100%;
+    float: left;
+    background-image: url(./photo-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#About {
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 80px;
+    height: 100%;
+    background-color: rgb(47, 44, 44);
+}
+
+#aboutUs {
+    color: #fff;
+    /* line-height: 1.5em; */
+}
+
+#aboutUs h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+.text-primary {
+    color: gold;
+}
+
+#aboutUs button {
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+#aboutUs button:hover {
+    background-color: gold;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+/* end main style */
+.Cards {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.cardGold {
+    background: gold;
+}
+
+.Cards div {
+    margin: 30px 5px;
+}
+
+.Cards div h2 {
+    font-size: 50px;
+}
+
+/* end Details style */
+
+footer div {
+    text-align: center;
+    background-color: #000;
+}
+
+footer div p{
+    color: #fff;
+    padding: 20px 20px;
+}
