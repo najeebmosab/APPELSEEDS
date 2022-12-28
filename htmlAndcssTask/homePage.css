@@ -23,7 +23,7 @@ a{
 
 #navBar section a {
     text-decoration: none;
-    color: #fff;
+    color: #fff ;
     font-weight: 900;
     padding: 10px 20px;
 }
@@ -81,9 +81,12 @@ a{
 #description button {
     border: none;
     padding: 10px;
-    color: #fff;
     margin: 10px;
     background-color: #000;
+}
+#description button a{
+    color: #fff;
+
 }
 
 #description button:hover {

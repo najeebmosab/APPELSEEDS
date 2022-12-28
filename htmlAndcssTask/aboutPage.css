@@ -1,0 +1,120 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#navBar {
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+#navBar section {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#navBar section a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+
+#navBar section a:hover {
+    background-color: rgb(47, 44, 44);
+    color: gold !important;
+
+}
+
+#navBar section:last-child {
+    float: right;
+}
+
+/* End style navbar */
+
+#aboutUS {
+    width: 50%;
+    line-height: 1.9em;
+    margin: 50px 0px;
+    padding: 10px 100px;
+    float: left;
+}
+
+#aboutUS h1 {
+    font-size: 30px;
+}
+
+.goldText {
+    color: gold;
+}
+
+.imgBG {
+    width: 50%;
+    float: right;
+    text-align: center center;
+}
+
+section div img {
+    width: 400px;
+    max-height: 100%;
+    border-radius: 50%;
+    padding: 20px 30px;
+    margin: 40px 20px;
+}
+
+/* ------------------------------------------- */
+.clr{
+    clear: both;
+}
+.imgBackground {
+    background-image: url(./test-bg.jpg);
+    background-size: cover;
+    background-position: center ;
+    max-height: 100%;
+    height: 100%;
+    
+    width: 100%;
+}
+
+section .imgBackground  h2 {
+    padding: 30px 0px;
+    color: #fff;
+    font-size: 40px;
+    width: 400px;
+    margin:  auto;
+}
+
+
+section .imgBackground div {
+    background-color: #f7c08a;
+    width: 700px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section .imgBackground div img{
+    border-radius: 50%;
+    width: 150px;
+ 
+}
+/* ----------------- */
+footer div {
+    text-align: center;
+    background-color: #000;
+}
+
+footer div p{
+    color: #fff;
+    padding: 20px 20px;
+}
