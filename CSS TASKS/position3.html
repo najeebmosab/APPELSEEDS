@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .allDivStyle{
+      border: solid 4px black;  
+      
+    }
+    #divOne{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        background-color: yellow;
+    }
+    #divTwo{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 33%;
+        left: 15%;
+        z-index: 1;
+        background-color: green;
+    }
+    #divThree{
+        width: 600px;
+        height: 200px;
+        position: absolute;
+        top: 53%;
+        left: 5%;
+        z-index: 2;
+        background-color: blue;
+
+    }
+    #divFour{
+        width: 100px;
+        height: 400px;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        z-index: 3;
+        background-color: red;
+    }
+</style>
+<body>
+
+    <section>
+        <div id="divOne" class="allDivStyle">Box Title</div>
+        <div id="divTwo" class="allDivStyle">Box Title</div>
+        <div id="divThree" class="allDivStyle">Box Title</div>
+        <div id="divFour" class="allDivStyle">Box Title</div>
+    </section>
+    
+</body>
+</html>
