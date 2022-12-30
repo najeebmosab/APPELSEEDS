@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    overflow-x:hidden ;
+}
 
 header nav {
     overflow: auto;
@@ -24,6 +26,12 @@ header nav section a.logo svg {
 header nav #allSection {
     position: fixed;
     width: 100%;
+}
+
+@media (max-width:1000px) {
+    #allSection{
+        top: 0px !important;
+    }
 }
 
 header nav #allSection section {
@@ -75,21 +83,69 @@ main .bg-img {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    margin-bottom: 30px;
+    /* padding-top: 100px; */
 }
 
 main .bg-img div {
-    width: 300px;
-    margin: auto;
-    padding-top: 100px;
+    width: auto;
     color: #fff;
     font-weight: 700;
     text-align: center;
 }
 
+#contanier{
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+
+#contanier .m-div{
+    margin: 0px 20px !important;
+}
+
+@media (max-width:1000px) {
+    #contanier{
+        display: block;
+    }
+    #contanier .m-div{
+        margin: 30px 0px !important;
+    }
+}
+
+
 main .bg-img div a {
     color: #fff;
     font-weight: 700;
 }
+
+
+main .bg-img .my-arrow{
+    width: 50px;
+    margin: auto;
+    animation: MoveUpDown 1s linear infinite;
+}
+
+main .bg-img .my-arrow a{
+    color: #fff;
+}
+
+main .bg-img .my-arrow a:hover{
+    color: #fff;
+}
+
+main .bg-img .my-arrow a:active{
+    color: #fff;
+} 
+
+@keyframes MoveUpDown {
+    from {
+     transform: translateY(0);
+    }
+    to {
+        transform: translateY(10px);
+    }
+  }
 
 main section ul {
     list-style: none;
@@ -103,6 +159,12 @@ main section ul li {
     color: #fff;
 }
 
+main section ul li a{
+    color: #fff;
+}  
+main section ul li a:hover{
+    color: #fff;
+}
 
 .active {
     font-weight: 900;
@@ -145,6 +207,15 @@ main section ul li:hover span {
     padding: 20px;
 }
 
-#contanier {
-    
+
+#contanier div button{
+    border: solid 1px #fff;
+    padding: 10px 100px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#contanier div button:hover{
+    background-color: #fff;
+    color: #000;
 }
