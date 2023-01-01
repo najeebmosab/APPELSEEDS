@@ -1,0 +1,71 @@
+
+ #navBar{
+    display: block;
+    width: 100%;
+    overflow: auto;
+    position: static;
+ }
+
+ #navBar section{
+    display: block;
+    padding: 5px 0px;
+    text-align: center;
+    width: 100%;
+ }
+
+ #navBar section a {
+    text-decoration: none;
+    color: #fff ;
+    font-weight: 900;
+    padding: 5px 0px;
+    display: block;
+    text-align: center;
+    border-bottom: dotted 1px #444;
+}
+#navBar section a:last-child{
+    border-bottom: none;
+}
+
+#navBar section a:hover {
+    background-color: rgb(47, 44, 44);
+    color: gold !important;
+
+}
+
+
+/* End style navbar */
+
+#woll{
+    display: none;
+}
+
+#About{
+    width: 100%;
+}
+/* End style Section two  */
+section#mobile-section{
+    display: block !important;
+}
+.bg-black{
+    height: 100%;
+    margin-bottom: 0px;
+}
+.bg-black .Cards{
+    display: block !important;
+    margin: 0px auto;
+    padding: 20px auto;
+}
+
+/* About Us page */
+#aboutUS{
+    float: none;
+    width: 100%;
+}
+.imgBG {
+    width: 100%;
+    float: none;
+    text-align: center center;
+}
+section .imgBackground div{
+    width: auto;
+}
