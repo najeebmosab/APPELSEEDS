@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        width: 300px;
+        margin: 20px auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    table,td,th{
+        padding: 10px;
+    }
+    table,th:first-child{
+        border-top-left-radius: 10px;
+    }
+    table,th:last-child{
+        border-top-right-radius: 10px;
+    }
+    table,tr{
+        border-collapse: collapse;
+        border-bottom: solid 1px #444;
+        border-radius: 5px;
+    }
+    table thead th{
+        color: #fff;
+        background-color: rgb(10, 198, 135);
+    } 
+    table tbody tr:nth-child(even){
+        color: rgb(10, 198, 135);
+    }
+    table tbody tr:last-child{
+        border-color:  rgb(10, 198, 135);
+    }
+</style>
+<body>
+
+    <main>
+        <table>
+            <thead>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Dombic</td>
+                    <td>88,110</td>
+                    <td>dcode</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sally</td>
+                    <td>72,400</td>
+                    <td>Students</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nick</td>
+                    <td>52,300</td>
+                    <td>dcode</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+</body>
+
+</html>
