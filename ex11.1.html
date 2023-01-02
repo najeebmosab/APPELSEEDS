@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    main section {
+        display: flex;
+        justify-content: space-between;
+    }
+    main section div:first-child{
+        background-color: green;
+        width: 200px;
+        height: 200px;
+    }
+
+    main section div:last-child{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    
+    main section div:nth-child(2){
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+    }
+</style>
+<body>
+
+    <main>
+        <section>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </section>
+    </main>
+    
+</body>
+</html>
