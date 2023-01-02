@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10.2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    body {
+        /* overflow-x: hidden; */
+    }
+
+    header nav {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 10px; */
+    }
+
+    header nav div {
+        padding: 10px 40px;
+    }
+
+    header nav div a {
+        padding: 10px;
+        color: azure;
+        text-decoration: none;
+        background-color: red;
+    }
+
+    header nav div a:hover {
+        color: red;
+        background-color: azure;
+
+    }
+
+    main div#CV {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    main div#CV section:first-child {
+        border: solid 1px #444;
+        width: 100%;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    main div#CV section:last-child {
+        border: solid 1px #444;
+        width: 100%;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .my-img {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .my-img img {
+        border-radius: 50%;
+        width: 200px;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact ul {
+        list-style: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact ul li {
+        /* border: solid 1px #fff; */
+        display: inline-block;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(0, 17, 255);
+    }
+
+    .contact ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .skills ul {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width:900px) {
+        body{
+            overflow-x: hidden;
+        }
+        main div#CV{
+            display: block;
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="#">logo</a>
+            </div>
+            <div>
+                <a href="#">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="CV">
+            <section>
+                <div class="card">
+                    <div class="my-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdu8uSEdiNBY7tiJPNfvm0FISP9idOCl9Z_g&usqp=CAU"
+                            alt="">
+                    </div>
+                    <div class="contact">
+                        <ul>
+                            <li><a href="https://github.com/najeebmosab"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mosab-najeeb/"><i
+                                        class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="summary">
+                        <p>
+                            junior software engineering and full stack developer by:angular,asp.net web api,sql server
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <ul>
+                            <li>
+                                HTML,jS,CSS
+                            </li>
+                            <li>
+                                TS,Angular
+                            </li>
+                            <li>SQL SERVER,mySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="card">
+                    <div class="my-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdu8uSEdiNBY7tiJPNfvm0FISP9idOCl9Z_g&usqp=CAU"
+                            alt="">
+                    </div>
+                    <div class="contact">
+                        <ul>
+                            <li><a href="https://github.com/najeebmosab"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mosab-najeeb/"><i
+                                        class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="summary">
+                        <p>
+                            junior software engineering and full stack developer by:angular,asp.net web api,sql server
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <ul>
+                            <li>
+                                HTML,jS,CSS
+                            </li>
+                            <li>
+                                TS,Angular
+                            </li>
+                            <li>SQL SERVER,mySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
