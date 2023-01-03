@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #navBar {
+        background-color: antiquewhite;
+        padding: 10px 0px;
+    }
+
+    #navBar  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #navBar nav  a {
+        padding: 0px 20px;
+        text-decoration: none;
+        position: relative;
+    }
+    #navBar nav a::before{
+        content: '';
+        position: absolute;
+        border-top: 1px solid #f00;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        opacity: 0;
+                
+    }
+
+    #navBar nav a:hover::before{
+        width: 100%;
+        opacity: 1;
+        border-top: 2px solid #f00;
+        transition: width 1s,opacity 1s,border-top 1s;
+
+    }
+
+    #navBar nav a::after{
+        content: '';
+        position: absolute;
+        border-top: 1px solid #f00;
+        top: 20px;
+        right: 0;
+        width:0%;
+        height: 100%;
+        opacity: 0;
+
+                
+    }
+
+    #navBar nav a:hover::after{
+        width: 100%;
+        opacity: 1;
+        border-top: 2px solid #f00;
+        transition: width 0.9s,opacity 1s,border-top 1s;
+    }
+</style>
+
+<body>
+    <header>
+        <div></div>
+        <div id="navBar">
+            <h4>
+                <a href="">Logo</a>
+            </h4>
+            <nav>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Portfolio</a>
+
+            </nav>
+        </div>
+        <div></div>
+    </header>
+</body>
+
+</html>
