@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+         */
+        /* grid-template-areas: "a a b b"
+                             "c d d d"
+                             "e e e e" 
+                             ; */
+        grid-gap: 10px;
+    }
+
+    .item {
+        background-color: #f4f4f4;
+        font-size: 1.3rem;
+        border: 1px solid #ccc;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .grid .item:nth-child(1) {
+        /* grid-area: a; */
+        grid-column: 1/3;
+    }
+
+    .grid .item:nth-child(2) {
+        /* grid-area: b; */
+        grid-column: 3/5;
+
+    }
+
+    .grid .item:nth-child(3) {
+        /* grid-area: c; */
+        grid-column: 1/2;
+
+    }
+
+    .grid .item:nth-child(4) {
+        /* grid-area: d; */
+        grid-column: 2/5;
+    }
+
+    .grid .item:last-child {
+        grid-column: span 5;
+    }
+
+    @media (max-width:500px) {
+        .grid{
+            display: block;
+        }
+    }
+</style>
+
+<body>
+
+    <main>
+        <div class="grid">
+            <div class="item a">1item</div>
+            <div class="item b">2item</div>
+            <div class="item c">3item</div>
+            <div class="item d">4item</div>
+            <div class="item e">5item</div>
+        </div>
+    </main>
+
+</body>
+
+</html>
